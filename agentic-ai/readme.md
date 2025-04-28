@@ -2,12 +2,6 @@
 
 This folder contains files that are used in the two pipelines described in the paper. 
 
-**Architecture**
-
-![Knowledge Graph Pipeline](./img/knowledge-pipeline.png)
-
-![Query Pipeline](./img/query-pipeline.png)
-
 **Artifacts**
 
 _YAMLs that support LLM prompts for both pipelines_
