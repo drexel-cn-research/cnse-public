@@ -1,0 +1,20 @@
+NodeTypes:
+  - AwsSpecificResource       # Any AWS-defined resource not fitting other categories
+  - ComputeResource           # Virtual machines, containers, or functions that execute code
+  - StorageResource           # Object, block, or file storage services
+  - NetworkResource           # Defines network topology and connectivity
+  - EventSourceResource       # Emits or triggers events in the system
+  - SecurityGroupResource     # Defines inbound/outbound traffic rules
+  - IdentityResource          # Manages users, roles, or access policies
+  - ConfigurationResource     # Stores or defines infrastructure or runtime settings
+  - MonitoringResource        # Captures metrics, logs, or traces
+  - DataProcessingResource    # Transforms, analyzes, or processes raw data
+  - MediaResource             # Handles streaming or media file workflows
+  - ApplicationResource       # Supports application delivery or configuration
+  - DevOpsResource            # Enables CI/CD, automation, or infrastructure as code
+  - DatabaseResource          # Stores structured or semi-structured data
+  - CacheResource             # Provides low-latency in-memory storage
+  - IotResource               # Connects and manages edge or IoT devices
+  - EksResource               # Manages Kubernetes clusters or workloads
+  - ContainerResource         # Runs containerized workloads
+  - ServerlessResource        # Executes code without managing infrastructure

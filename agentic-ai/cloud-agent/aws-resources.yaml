@@ -1,0 +1,324 @@
+NodeTypes:
+  Aws:
+  - Region
+  - Account
+  - AvailabilityZone
+  - LocalZone
+  - WavelengthZone
+  - Outpost
+  - Organization
+  - OrganizationalUnit
+  - ServiceControlPolicy
+  - ResourceTag
+  - ResourceGroup
+  - CostAllocationTag
+  - ServiceQuota
+  - TrustedAdvisorCheck
+  - Partition
+  - Service
+  - ApiCall
+  - EventSource
+  - MarketplaceSubscription
+  - PricingPlan
+  - CostCategory
+  - ReservedInstance
+  - SavingsPlans
+  - ControlTower
+  - LicenseConfiguration
+
+  Kubernetes:
+  - Namespace
+  - Deployment
+  - ReplicaSet
+  - Pod
+  - DaemonSet
+  - StatefulSet
+  - Job
+  - CronJob
+  - Service
+  - Endpoints
+  - Ingress
+  - ConfigMap
+  - Secret
+  - PersistentVolume
+  - PersistentVolumeClaim
+  - StorageClass
+  - ServiceAccount
+  - Role
+  - RoleBinding
+  - ClusterRole
+  - ClusterRoleBinding
+  - NetworkPolicy
+  - ResourceQuota
+  - LimitRange
+  - HorizontalPodAutoscaler
+  - PodDisruptionBudget
+  - Container
+  - Volume
+  - Label
+  - Annotation
+  - Selector
+  - Probe
+  - Affinity
+  - Toleration
+  - Node
+
+  ComputeResource:
+  - Ec2Instance
+  - LambdaFunction
+  - LambdaFunctionAffiliateIngestion
+  - AutoScalingGroup
+  - EcsCluster
+  - EcsService
+  - EcsTaskDefinition
+  - BatchComputeEnvironment
+  - DbInstance
+  - DbCluster
+  - DynamodbTable
+  - ElasticacheCluster
+  - DocumentdbCluster
+  - NeptuneCluster
+  - RedshiftCluster
+  - OpensearchDomain
+  - TimestreamDatabase
+  - KeyspacesTable
+  - SagemakerNotebook
+  - SagemakerEndpoint
+  - ComprehendEntityRecognizer
+  - EmrCluster
+  - GlueCrawler
+  - GlueJob
+  - AthenaWorkgroup
+  - QuicksightDashboard
+  - KendraIndex
+  - ForecastPredictor
+  - AppMeshVirtualNode
+  - LightsailInstance
+  - GameliftFleet
+  - Ec2SpotFleet
+  - Ec2SpotInstanceRequest
+  - AppstreamFleet
+  - WorkspacesWorkspace
+  - LambdaPermission
+  - FargateTask
+  - AppRunnerService
+  - LambdaLayerVersion
+  - LambdaLayer
+  - LambdaEventSourceMapping
+  - LambdaAlias
+  - LambdaIntegration
+
+  StorageResource:
+  - EcrRepository
+  - DbClusterSnapshot
+  - S3Bucket
+  - EbsVolume
+  - EfsFilesystem
+  - FsxFilesystem
+  - S3GlacierVault
+  - StorageGateway
+  - BackupVault
+  - SagemakerModel
+  - GlueDatabase
+  - S3AccessPoint
+  - S3MultiRegionAccessPoint
+  - CloudtrailEventDataStore
+  - BackupPlan
+  - DmsReplicationInstance
+  - DatasyncTask
+  - TransferServer
+  - DbSubnetGroup
+  - DbSecurityGroup
+  - S3BucketPolicy
+  - S3ObjectLambdaAccessPoint
+
+  NetworkResource:
+  - Vpc
+  - Subnet
+  - InternetGateway
+  - ElasticLoadBalancer
+  - ApplicationLoadBalancer
+  - NetworkLoadBalancer
+  - ApiGateway
+  - VpnGateway
+  - TransitGateway
+  - NatGateway
+  - Route53Hostedzone
+  - Route53Recordset
+  - Route53Healthcheck
+  - CloudfrontDistribution
+  - DirectConnect
+  - GlobalAccelerator
+  - VpcEndpoint
+  - VpcPeeringConnection
+  - NetworkAcl
+  - RouteTable
+  - VpcFlowLog
+  - Apigatewayv2Api
+  - PrivatelinkEndpointService
+  - WavelengthCarrierGateway
+  - LambdaPermission
+  - ElasticIpAddress
+  - NetworkInterface
+  - VpnConnection
+
+  EventSourceResource:
+  - SnsTopic
+  - SqsQueue
+  - EventbridgeRule
+  - KinesisStream
+  - KinesisFirehose
+  - MskCluster
+  - MqBroker
+  - LambdaEventSource
+  - IotRule
+  - IotTopicRule
+  - EventbridgeEventBus
+  - EventbridgeSchema
+  - SnsSubscription
+  - EventBridgePipe
+
+  SecurityGroup:
+  - SecurityGroup
+  - WafWebAcl
+  - ShieldProtection
+  - NetworkFirewall
+  - InspectorAssessmentTemplate
+  - MacieClassificationJob
+  - GuarddutyDetector
+  - NaclRule
+
+  IdentityResource:
+  - LambdaLayer
+  - IamRole
+  - IamPolicy
+  - IamUser
+  - KmsKey
+  - AcmCertificate
+  - SecretsManagerSecret
+  - IamGroup
+  - IamInstanceProfile
+  - IamServerCertificate
+  - IamSamlProvider
+  - CognitoUserPool
+  - CognitoIdentityPool
+  - DirectoryServiceDirectory
+  - OidcProvider
+  - StsSession
+
+  ConfigurationResource:
+  - DbParameterGroup
+  - DbClusterParameterGroup
+  - LaunchTemplate
+  - CloudformationStack
+  - SystemsManagerParameter
+  - SystemsManagerDocument
+  - ConfigRule
+  - LaunchConfiguration
+
+  MonitoringResource:
+  - CloudwatchAlarm
+  - CloudwatchDashboard
+  - CloudwatchLogGroup
+  - CloudwatchMetric
+  - CloudtrailTrail
+  - XrayGroup
+  - XraySamplingRule
+  - SyntheticsCanary
+  - DevopsGuruResourceCollection
+  - CloudwatchAnomalyDetector
+  - CloudwatchInsightRule
+  - CloudwatchCompositeAlarm
+
+  DataProcessingResource:
+  - StepFunctionsStateMachine
+  - BatchJobQueue
+  - BatchJobDefinition
+  - GlueWorkflow
+  - EmrServerlessApplication
+  - DataPipeline
+  - GlueTrigger
+  - GlueClassifier
+
+  MediaResource:
+  - MediaconvertJobTemplate
+  - MediaconvertPreset
+  - MedialiveChannel
+  - MediapackageChannel
+  - KinesisVideoStream
+  - ElasticTranscoderPipeline
+  - MediastoreContainer
+  - IvsChannel
+  - MediaConnectFlow
+
+  ApplicationResource:
+  - ElasticbeanstalkEnvironment
+  - AppsyncGraphqlApi
+  - AmplifyApp
+  - AppRunnerService
+  - OpsworksStack
+  - OpsworksLayer
+  - ServicecatalogProduct
+  - ServicecatalogPortfolio
+  - CodeartifactDomain
+  - CodeartifactRepository
+  - AppConfigConfigurationProfile
+  - AppConfigEnvironment
+
+  DevOpsResource:
+  - CodepipelinePipeline
+  - CodebuildProject
+  - CodedeployApplication
+  - CodedeployDeploymentGroup
+  - CodecommitRepository
+  - CodeguruReviewerRepositoryAssociation
+  - CodeguruProfilerProfilingGroup
+  - CodepipelineWebhook
+  - CloudformationStackSet
+
+  DatabaseResource:
+  - RdsDbInstance
+  - RdsDbCluster
+  - DynamodbTable
+  - ElasticacheReplicationGroup
+  - NeptuneDbInstance
+  - DocumentdbDbInstance
+  - RedshiftCluster
+  - MemorydbCluster
+  - QldbLedger
+  - TimestreamTable
+  - KeyspacesKeyspace
+
+  CacheResource:
+  - ElasticacheCacheCluster
+  - ElasticacheReplicationGroup
+  - DaxCluster
+  - MemorydbCluster
+
+  IotResource:
+  - IotThing
+  - IotThingGroup
+  - IotThingType
+  - IotCertificate
+  - IotPolicy
+  - IotProvisioningTemplate
+
+  EksResource:
+  - EksCluster
+  - EksNodegroup
+  - EksFargateProfile
+  - EksClusterAddon
+  - EksClusterSecurityGroup
+  - EksClusterRole
+  - EksClusterRoleBinding
+  - EksClusterPolicy
+  - EksClusterPolicyAttachment
+
+  ContainerResource:
+  - EcsCluster
+  - EcsService
+  - EcsTaskDefinition
+  - AppMeshMesh
+
+  ResourceOther:
+  - UnknownType
