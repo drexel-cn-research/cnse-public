@@ -4,6 +4,8 @@ This folder contains files that are used in the two pipelines described in the p
 
 **Artifacts**
 
+Get the pre-publication PDf here - [CAMLIS2025_RIG-RAG-Agentic-Cloud-Infrastructure.pdf](./paper/CAMLIS2025_RIG-RAG-Agentic-Cloud-Infrastructure.pdf).
+
 _YAMLs that support LLM prompts for both pipelines_
 
 |directory|description|
