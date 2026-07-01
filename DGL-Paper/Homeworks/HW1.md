@@ -65,11 +65,11 @@ The point is to show a progression of inquiry across both topics. A strong log s
 
 **Example of what we're looking for (do not copy this):**
 
-*Prompt 1:* "What is a micro-operation in the context of Intel processors?" *Why I asked this:* Starting point — I needed the basic definition before anything else made sense.
+> *Prompt 1:* "What is a micro-operation in the context of Intel processors?" *Why I asked this:* Starting point — I needed the basic definition before anything else made sense.
 
-*Prompt 2:* "You said x86 instructions are decoded into µops — where exactly does that happen, and does every x86 instruction produce the same number of µops?" *Why I asked this:* The first answer was vague about timing and quantity. I wanted something concrete.
+> *Prompt 2:* "You said x86 instructions are decoded into µops — where exactly does that happen, and does every x86 instruction produce the same number of µops?" *Why I asked this:* The first answer was vague about timing and quantity. I wanted something concrete.
 
-*Prompt 3:* "How much power does the µop translation hardware itself consume? Is that a significant fraction of the chip's total TDP (Thermal Design Power)?" *Why I asked this:* I wanted to bridge from the complexity topic to the power topic.
+> *Prompt 3:* "How much power does the µop translation hardware itself consume? Is that a significant fraction of the chip's total TDP (Thermal Design Power)?" *Why I asked this:* I wanted to bridge from the complexity topic to the power topic.
 
 ---
 
