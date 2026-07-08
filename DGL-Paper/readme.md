@@ -26,7 +26,7 @@ The [`Homeworks/`](Homeworks/) directory contains all seven DGL assignments depl
 
 ### Survey Instrument
 
-The [`Surveys/`](Surveys/README.md) directory documents the survey instrument used to collect the data reported in the paper — the exact questions and response scales presented to students after each assignment, plus the anonymous receipt-code scheme used to verify survey completion without linking any response to an individual student. No student response data, individual or aggregated, is included here or anywhere in this repository.
+The [`Surveys/`](Surveys/readme.md) directory documents the survey instrument used to collect the data reported in the paper — the exact questions and response scales presented to students after each assignment, plus the anonymous receipt-code scheme used to verify survey completion without linking any response to an individual student. No student response data, individual or aggregated, is included here or anywhere in this repository.
 
 ### Example Student Dialogue
 
