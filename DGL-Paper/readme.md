@@ -24,6 +24,10 @@ The [`Homeworks/`](Homeworks/) directory contains all seven DGL assignments depl
 | [HW6](Homeworks/HW6.md) | Specialized execution units |
 | [HW7](Homeworks/HW7.md) | CPU exceptions & privilege modes |
 
+### Survey Instrument
+
+The [`Surveys/`](Surveys/README.md) directory documents the survey instrument used to collect the data reported in the paper — the exact questions and response scales presented to students after each assignment, plus the anonymous receipt-code scheme used to verify survey completion without linking any response to an individual student. No student response data, individual or aggregated, is included here or anywhere in this repository.
+
 ### Example Student Dialogue
 
 [`Dennard-Scaling-Tutorial.md`](Dennard-Scaling-Tutorial.md) is an annotated example of a high-quality DGL dialogue. A student investigates Dennard Scaling across 11 turns — starting from zero background, asking follow-up questions, checking understanding, and progressively refining their mental model. Teaching notes at the end highlight the specific strategies that made the exchange effective.
